@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Nav Styles*/
+.NavContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.NavContainer p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+/* Header Styles*/
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* Main Styles*/
+
+.MainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainContent h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+aside {
+    padding: 10px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+
+section {
+    width: 100%;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/* Review Styles*/
+.reviews {
+    padding: 2rem;
+    text-align: center;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Responsivo */
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.review-card {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
